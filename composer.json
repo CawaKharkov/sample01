@@ -1,14 +1,21 @@
 {
-    "name": "cawakharkov/sample01",
-    "description": "Sample project from start",
-    "type": "project",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "ALeksandr Zamiatin",
-            "email": "cawa123@mail.ru"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+  "name": "cawakharkov/sample01",
+  "description": "Sample project from start",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ALeksandr Zamiatin",
+      "email": "cawa123@mail.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "nikic/fast-route": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cawakharkov\\Sample01\\": "src/"
+    }
+  }
 }
