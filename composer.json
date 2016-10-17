@@ -1,0 +1,14 @@
+{
+    "name": "cawakharkov/sample01",
+    "description": "Sample project from start",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ALeksandr Zamiatin",
+            "email": "cawa123@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
